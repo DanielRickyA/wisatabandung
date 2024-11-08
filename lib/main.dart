@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:wisatabandung/detail_screen.dart';
+import 'package:wisatabandung/main_screen.dart';
 
 void main() {
   runApp(const MainApp());
@@ -11,9 +12,9 @@ class MainApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: "Wisata Bandung",
+      title: ("Wisata Bandung"),
       theme: ThemeData(useMaterial3: false),
-      home: const DetailScreen(),
+      home: const MainScreen(),
     );
   }
 }
